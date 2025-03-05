@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://wallpapers.com/images/hd/green-mountain-etrb0voclap7stl6.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+
+.user{
+    width: 20%;
+    height: 20%;
+    position: relative;
+    top: auto;
+    left: 40%;
+    
+
+
+    
+}
+form{
+        border: 1px;
+        border-radius: 10px;
+        width: 25%;
+        height: 550px;
+        display: block;
+        margin: auto;
+        padding: 50px;
+        position: relative;
+        right: 20px;
+        top: 100px;
+       background-color: rgba(211, 208, 208, 0.4);
+       
+        
+}
+#username{
+    width: 90%;
+    padding: 15px;
+    border: none;
+}
+#email{
+    width: 90%;
+    padding: 15px; 
+    border: none;
+}
+#password{
+    width: 90%;
+    padding: 15px; 
+    border: none;
+}
+#submit-button{
+    border: none;
+    width: 96%;
+    color: white;
+    padding: 15px;
+    background-color: rgb(84, 167, 84)
+    
+
+}
+
