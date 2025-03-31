@@ -41,5 +41,7 @@ console.log(tex.startsWith("world", 6));
 let d= `He's often called "Johnny"`;
 console.log(d);
 
-
+let str="hello";
+let reversed = str.split("").reverse().join("");
+console.log(reversed);
    
