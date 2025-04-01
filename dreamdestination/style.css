@@ -1,0 +1,222 @@
+
+.cont {
+    position: relative;
+    text-align: center;
+    color: black;
+    
+  }
+  .culture-img{
+    display: flex;
+    gap: 100px;
+  }
+  
+  .position{
+    position: relative;
+  max-width: 1200px;
+  text-align: center;
+  left: 300px;
+  margin-top: 50px;
+  color: black;
+  }
+  .position:before{
+    content:" ";
+  height: 10px;
+  width: 400px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+.culture-container{
+  margin-left: 400px;
+}
+.polaroid{
+  background-color: rgb(76, 150, 160);
+  padding: 50px;
+  position: relative;
+}
+
+
+.position:after{
+    content:" ";
+  height: 10px;
+  width: 400px;
+  background: black;
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 0;
+        
+    }
+#discover{
+  margin-top: 100px;
+}
+  #charm{
+    margin-top: 150px;
+    margin-left: 500px;
+    color: blueviolet;
+    font-size: 50px;
+  }
+  body{
+    background-color: rgb(212, 206, 218);;
+  }
+  .culture{
+display: grid;
+  }
+  #button{
+    border: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    display: inline-block;
+    border: 2px;
+    padding: 10px 10px;
+    margin: 4px 2px;
+    height: 60px;
+    width: 150px;
+    font-size: 15px;
+    transition-duration: 0.9s;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: 30px;
+    
+  }
+  #button:hover {
+    background-color: blueviolet;
+    color: white;
+  }
+  .food{
+    display: grid;
+  }
+  .tour{
+    display: grid;
+  }
+  .tech{
+    display: grid;
+  }
+  .fashion{
+    display: grid;
+  }.components{
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-bottom: 100px;
+
+  }
+  hr{
+    width: 90%;
+    border: 5px solid black;
+  border-radius: 3px;
+
+  }
+  .places{
+   margin-top: 200px;
+   display: flex;
+   gap: 70px;
+   
+  }
+  
+  #top-image{
+    width: 280px;
+    height: 280px;
+  }
+  #page-text{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    
+  }
+  
+ #low-image{
+  width: 200px ;
+  height: 200px;
+  margin-top: 170px;
+ }
+ .alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: blueviolet;
+  margin-left: 600px;
+  margin-bottom: 50px;
+  font-size: 70px;
+}
+
+ .moreplaces{
+  margin-left: 100px;
+display: flex;
+gap: 70px;
+ }
+ #big-image{
+  width: 280px;
+    height: 280px;
+    margin-top: 70px;
+ }
+ #small-image{
+  width: 200px ;
+  height: 200px;
+  
+ }
+ .funfact{
+  display: flex;
+  gap: 130px;
+  margin-left: 80px;
+  margin-top: 150px;
+ }
+ .map{
+  display: flex;
+  gap: 80px;
+  margin-left: 500px;
+ }
+ .icons{
+  display: flex;
+  gap: 20px;
+  margin-left: 200px;
+  size-adjust: 400px;
+ }
+ .socialtag{
+  display: grid;
+  gap: 20px;
+  margin-left: 500px;
+ }
+ #fashion-title{
+  font-size: 80px;
+  justify-content: center;
+ }
+ .conta {
+  max-width: 200px;
+  border: 1px solid black;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: purple;
+  position: absolute;
+  transition: all 0.7s ease;
+}
+
+.overlay-text {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: bold;
+}
+.overlay-left {
+  left: -100%;
+  top: 0;
+}
+.conta:hover .overlay-left {
+  left: 0;
+}
+ 
+ 
+  
+
